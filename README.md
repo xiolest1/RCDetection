@@ -50,6 +50,7 @@ python CameraCal.py
 ````
 python undistortion.py
 ````
+- Provided opencv_frames have been altered to protect identity
 
 ---
 #### **RC Vehicle Control**
