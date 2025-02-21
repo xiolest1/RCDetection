@@ -50,6 +50,8 @@ python CameraCal.py
 ````
 python undistortion.py
 ````
+
+---
 #### **RC Vehicle Control**
 To control an RC vehicle based on detected object position:
 
