@@ -37,11 +37,15 @@ This is a Python project that uses OpenCV for computer vision tasks to aid in re
 #### **Camera Calibration**
 
 - Place chessboard images in the project directory
-- Run the calbration script
+- Run the calibration script
 ````
 python CameraCal.py
 ````
--  calbration data will be saved in calibration_data.npz
+- calibration data will be saved in calibration_data.npz
+- undistortion.py: transfers the captured image based on calibration
+- CamCalErr.py: Compares the two types of pictures
+- The distance and positon code is DisPos.py
+<img src="https://i.postimg.cc/5tKrJK2R/Screenshot-2025-02-23-165740.png" width="350" alt="Process Flow">
 
 ---
 
@@ -50,7 +54,7 @@ python CameraCal.py
 ````
 python undistortion.py
 ````
-- Provided opencv_frames have been altered to protect individual's identity
+- Provided opencv_frames inside directory have been altered to protect individual's identity
 
 ---
 #### **RC Vehicle Control**
@@ -92,4 +96,8 @@ Feature detection is used to recognize and track an object (such as a template i
 - Brute-Force Matching: Some scripts use brute-force matching, which may be suboptimal for real-time performance.
 - Detection Handling: The system may not gracefully handle situations where the target object is not detected.
 
+## Pictures + Video testing out the RC Car 
+<img src="https://media.giphy.com/media/Scju0gGTEnMcGT8iOi/giphy.gif" width="270" alt="Vertical demo">
+<img src="https://i.postimg.cc/BZTNJWWj/image.jpg" width="300" alt="Process Flow">
+<img src="https://i.postimg.cc/mgDS3tP9/IMG-6314.jpg" width="300" alt="Process Flow">
 
