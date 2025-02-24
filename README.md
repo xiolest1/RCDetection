@@ -97,11 +97,13 @@ Feature detection is used to recognize and track an object (such as a template i
 - Detection Handling: The system may not gracefully handle situations where the target object is not detected.
 
 ## Pictures + Video testing out the RC Car 
-<img src="https://media.giphy.com/media/Scju0gGTEnMcGT8iOi/giphy.gif" width="270" alt="Vertical demo">
 <img src="https://i.postimg.cc/BZTNJWWj/image.jpg" width="300" alt="Process Flow">
 <img src="https://i.postimg.cc/mgDS3tP9/IMG-6314.jpg" width="300" alt="Process Flow">
+<img src="https://i.postimg.cc/RVGRncZ9/IMG-6315.jpg" width="300" alt="Process Flow">
+
 
 
 
 https://github.com/user-attachments/assets/fd3dab89-cb25-4e57-bee3-1a979f6c82dc
+
 
