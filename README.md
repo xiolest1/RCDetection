@@ -1,9 +1,11 @@
 
-# RCDetection
+# Autonomous RC Vehicle with Computer Vision
 
-This is a Python project that uses OpenCV for computer vision tasks to aid in remote-controlled vehicle operations.
+This project implements a **Python-based computer vision system** designed to enhance a remote-controlled vehicle to an **autonomous navigation system** using **OpenCV**. The system begins by **calibrating the camera** to correct for lens distortion, ensuring accurate image processing. 
 
+The **vehicle detects our target** object (in this case is a hawk photo; logo.png) **via detection algorithms** like ORB, SIFT, and AKAZE. Computing **real-time positional data**, allowing the vehicle to dynamically **adjust steering and speed* based on the target's location.
 
+The communication between the vision system and RC car is handled via Arduino serial communication, enabling a seamless integration between computer vision and motoro control. All together the system allows the RC car to **autonomously track and navigate towards its target** within its environment.
 
 ## Features
 
@@ -100,10 +102,6 @@ Feature detection is used to recognize and track an object (such as a template i
 <img src="https://i.postimg.cc/BZTNJWWj/image.jpg" width="300" alt="Process Flow">
 <img src="https://i.postimg.cc/mgDS3tP9/IMG-6314.jpg" width="300" alt="Process Flow">
 <img src="https://i.postimg.cc/RVGRncZ9/IMG-6315.jpg" width="300" alt="Process Flow">
-
-
-
-
 https://github.com/user-attachments/assets/fd3dab89-cb25-4e57-bee3-1a979f6c82dc
 
 
