@@ -5,7 +5,7 @@ This project implements a **Python-based computer vision system** designed to en
 
 The **vehicle detects our target** object (in this case is a hawk photo; logo.png) **via detection algorithms** like ORB, SIFT, and AKAZE. Computing **real-time positional data**, allowing the vehicle to dynamically **adjust steering and speed** based on the target's location.
 
-The communication between the vision system and RC car is handled via Arduino serial communication, enabling a seamless integration between computer vision and motoro control. All together the system allows the RC car to **autonomously track and navigate towards its target** within its environment.
+The communication between the vision system and RC car is handled via Arduino serial communication, enabling a seamless integration between computer vision and motor control. All together the system allows the RC car to **autonomously track and navigate towards its target** within its environment.
 
 ## Features
 
