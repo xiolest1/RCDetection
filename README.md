@@ -3,7 +3,7 @@
 
 This project implements a **Python-based computer vision system** designed to enhance a remote-controlled vehicle to an **autonomous navigation system** using **OpenCV**. The system begins by **calibrating the camera** to correct for lens distortion, ensuring accurate image processing. 
 
-The **vehicle detects our target** object (in this case is a hawk photo; logo.png) **via detection algorithms** like ORB, SIFT, and AKAZE. Computing **real-time positional data**, allowing the vehicle to dynamically **adjust steering and speed* based on the target's location.
+The **vehicle detects our target** object (in this case is a hawk photo; logo.png) **via detection algorithms** like ORB, SIFT, and AKAZE. Computing **real-time positional data**, allowing the vehicle to dynamically **adjust steering and speed** based on the target's location.
 
 The communication between the vision system and RC car is handled via Arduino serial communication, enabling a seamless integration between computer vision and motoro control. All together the system allows the RC car to **autonomously track and navigate towards its target** within its environment.
 
